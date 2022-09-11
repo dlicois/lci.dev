@@ -1,4 +1,30 @@
 baseURL = 'https://www.lci.dev/'
 languageCode = 'fr-fr'
-title = 'dlicois'
+languageName = "Français"
+title = 'Licois Conseil Informatique'
 theme = "LoveIt"
+
+  # Home page config
+  [params.home]
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # URL of avatar shown in home page
+      avatarURL = "/images/ProfilePicture.png"
+      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = "Dorian Licois"
+      # subtitle shown in home page (HTML format is supported)
+      subtitle = "Ingénieur logiciel freelance fullstack Web / JAVA"
+      # whether to use typeit animation for subtitle
+      typeit = false
+      # whether to show social links
+      social = true
+    # Home page posts
+    [params.home.posts]
+      enable = false
+  # Social config about the author
+  [params.social]
+    GitHub = "dlicois"
+    Linkedin = "dorian-licois"
+    Twitter = "dlicois_"
+    Gitlab = "dlicois"
