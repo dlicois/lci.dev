@@ -1,0 +1,42 @@
+baseURL = 'https://www.lci.dev/'
+languageCode = 'fr-fr'
+languageName = "Français"
+title = 'Licois Conseil Informatique'
+theme = "LoveIt"
+
+  # Home page config
+  [params.home]
+    # Header config
+    # 页面头部导航栏配置
+    [params.header]
+      [params.header.title]
+        # URL of the LOGO
+        logo = ""
+        # title name
+        name = "LCI.dev"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = "🧑🏻‍💻"
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # URL of avatar shown in home page
+      avatarURL = "/images/ProfilePicture.png"
+      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = "Dorian Licois"
+      # subtitle shown in home page (HTML format is supported)
+      subtitle = "Ingénieur logiciel freelance fullstack Web / JAVA"
+      # whether to use typeit animation for subtitle
+      typeit = false
+      # whether to show social links
+      social = true
+    # Home page posts
+    [params.home.posts]
+      enable = false
+  # Social config about the author
+  [params.social]
+    GitHub = "dlicois"
+    Linkedin = "dorian-licois"
+    Twitter = "dlicois_"
+    Gitlab = "dlicois"
