@@ -6,6 +6,18 @@ theme = "LoveIt"
 
   # Home page config
   [params.home]
+    # Header config
+    # 页面头部导航栏配置
+    [params.header]
+      [params.header.title]
+        # URL of the LOGO
+        logo = ""
+        # title name
+        name = "LCI.dev"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = "🧑🏻‍💻"
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
     # Home page profile
     [params.home.profile]
       enable = true
