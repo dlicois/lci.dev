@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/dlicois/lci.dev/compare/v1.1.1...v1.2.0) (2022-10-02)
+
+
+### Features
+
+* add PR CI ([d9f8915](https://github.com/dlicois/lci.dev/commit/d9f8915a4a5e98e4e6def308eb6d4d3f9181dfae))
+
 ## [1.1.1](https://github.com/dlicois/lci.dev/compare/v1.1.0...v1.1.1) (2022-10-02)
 
 
