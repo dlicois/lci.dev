@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/dlicois/lci.dev/compare/v1.1.0...v1.1.1) (2022-10-02)
+
+
+### Bug Fixes
+
+* fix CD check ([d6cda5b](https://github.com/dlicois/lci.dev/commit/d6cda5b64c4d4513f677bfc48915699608c50bd1))
+
 ## [1.1.0](https://github.com/dlicois/lci.dev/compare/v1.0.0...v1.1.0) (2022-10-02)
 
 
