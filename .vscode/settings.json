@@ -1,0 +1,8 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^hugo -D$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
