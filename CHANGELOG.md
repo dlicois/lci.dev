@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://github.com/dlicois/lci.dev/compare/v1.2.0...v1.3.0) (2026-07-08)
+
+
+### Features
+
+* ✨ nouvelle mise en page, gourou ([630b017](https://github.com/dlicois/lci.dev/commit/630b017f6bd7428dcfaf678e64ab217b17db0f5e))
+* 💄 update theme ([0852d9c](https://github.com/dlicois/lci.dev/commit/0852d9c996e52ba038bfad3c23fb31ba7f20fbcb))
+
+
+### Bug Fixes
+
+* 📝 minimal readme ([361fa93](https://github.com/dlicois/lci.dev/commit/361fa937048f57703f6a998611f8c19ebda6d4a0))
+
 ## [1.2.0](https://github.com/dlicois/lci.dev/compare/v1.1.1...v1.2.0) (2022-10-02)
 
 
