@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.1](https://github.com/dlicois/lci.dev/compare/v1.3.0...v1.3.1) (2026-11-26)
+
+
+### Bug Fixes
+
+* 🐛 install dart sass in PR build workflow ([54fbbe3](https://github.com/dlicois/lci.dev/commit/54fbbe3942773ec191b9a7fcc4069025c839486c))
+* 🐛 install dart sass in release workflow ([57c52ae](https://github.com/dlicois/lci.dev/commit/57c52ae6c43bfcc27d92d56e876abe9aaa91537b))
+* 🐛 migrate cloudflare pages-action to wrangler-action@v3 ([b058362](https://github.com/dlicois/lci.dev/commit/b058362339a037b59a534fa85734e382158056ec))
+
 ## [1.3.0](https://github.com/dlicois/lci.dev/compare/v1.2.0...v1.3.0) (2026-07-08)
 
 
