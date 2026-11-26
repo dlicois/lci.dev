@@ -26,7 +26,7 @@ theme = "LoveIt"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = "Dorian Licois"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Ingénieur logiciel freelance fullstack Web / JAVA"
+      subtitle = "Tech Lead Java (Quarkus, Spring) – Architecture microservices & cloud-native"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
