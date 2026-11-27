@@ -7,19 +7,18 @@ jobs:
   release:
     runs-on: ubuntu-22.04
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - uses: googleapis/release-please-action@v5
         id: release
         with:
           release-type: simple
-          package-name: release-please-action
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
@@ -32,9 +31,9 @@ jobs:
 
       - name: Publish to Cloudflare Pages
         if: ${{ steps.release.outputs.release_created }}
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy ./public --project-name=${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          command: pages deploy ./public --project-name=${{ secrets.CLOUDFLARE_PROJECT_NAME }} --commit-dirty=true
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
